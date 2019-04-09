@@ -76,5 +76,7 @@ while True:
     if key == ord("q"):
         break
 
+
+cv2.waitKey(0)
 cv2.destroyAllWindows()
 vs.stop()
